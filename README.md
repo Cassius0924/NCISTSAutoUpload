@@ -1,0 +1,132 @@
+# NcistsAutoUpload![shell](https://img.shields.io/badge/Shell-Bash-blue)
+
+作者：[Cassius0924](https://www.github.com/Cassius0924)
+
+Git仓库：[NcistsAutoUpload](https://www.github.com/Cassius0924/NcistsAutoUpload)
+
+
+
+## 1. NcistsAutoUpload是什么
+
+NcistsAutoUpload是一个基于Bash语言的自动化脚本，仅适用于[Ncists.top](http://ncists.top)网站自动上传作业文件。
+
+
+
+## 2. 环境配置
+
+### 2.1 Linux和MacOS
+
+
+
+### 2.2 Windows
+
+
+
+
+
+## 3. 安装
+
+```shell
+git clone https://www.github.com/Cassius0924/NcistsAutoUpload
+```
+
+
+
+## 4. 运行
+
+### 4.1 文件准备
+
+- **文件位置要求**
+
+  > 必须将**代码文件**和**作业文件**放在同一文件夹下。
+  >
+  > 建议**单独新建**一个文件夹用于存放。
+
+- **文件命名要求**
+
+  > 图片需要为***.jpg***格式，命名格式为***<u>img01.jpg</u>***
+  >
+  > 代码文件需要为***.java***格式，命名格式为**<u>*zy01.java*</u>**
+
+
+
+### 4.2 上传文件至网站的最新作业
+
+```shell
+bash NcistsAutoUpload
+```
+
+> 运行命令后按照提示输入**用户名**与**密码**，例如：
+> 用户名：李华
+> 密码：abcd1234
+
+
+
+### 4.3 删除网站的最新作业的所有题目的文件
+
+```shell
+bash NcistsAutoUpload -d
+```
+
+>  运行命令后按照提示输入用户名与密码
+
+
+
+## 5. 其他命令
+
+> 作业文件指代码文件和图片文件
+
+### 5.1 记住用户名与密码
+
+```shell
+bash NcistsAutoUpload -r 用户名 密
+```
+
+
+
+### 5.2 上传文件至作业中某一到题
+
+```shell
+bash NcistsAutoUpload 题号
+```
+
+
+
+### 5.3 删除作业中某一道题的文件
+
+```shell
+bash NcistsAutoUpload -d 题号
+```
+
+
+
+### 5.4 删除文件夹下的所有作业文件
+
+请确保文件夹下无其他非作业文件，否则可能导致**误删**！
+
+```shell
+bash NcistsAutoUpload -D
+```
+
+
+
+### 5.5 自动重命名图片文件
+
+此命令会按照图片文件的**修改时间顺序**依次重命名，因此请确保时间顺序无误后再使用此命令。
+
+> 检查方法：
+>
+> 将文件夹文件排序改为“修改时间正序排序”，从上到下检查图片文件是否依次对应第一题到最后一题
+
+```shell
+bash NcistsAutoUpload -n
+```
+
+
+
+### 5.6 查看网站上最新作业
+
+
+
+[https:// www.github.com/Cassius0924]: 
+[www.github.com/Cassius0924]: 
