@@ -44,16 +44,16 @@ git clone https://github.com/Cassius0924/NICSTSAutoUpload.git
 
 - **文件命名要求**
 
-  > 图片需要为***.jpg***格式，命名格式为***<u>img01.jpg</u>***
+  > 图片需要为*** .jpg ***格式，命名格式为*** <u>img01.jpg</u> ***
   >
-  > 代码文件需要为***.java***格式，命名格式为**<u>*zy01.java*</u>**
+  > 代码文件需要为*** .java ***格式，命名格式为**<u>*zy01.java*</u>**
 
 
 
 ### 4.2 上传文件至网站的最新作业
 
 ```shell
-bash NcistsAutoUpload
+bash NCISTSAutoUpload
 ```
 
 > 运行命令后按照提示输入**用户名**与**密码**，例如：
@@ -65,7 +65,7 @@ bash NcistsAutoUpload
 ### 4.3 删除网站的最新作业的所有题目的文件
 
 ```shell
-bash NcistsAutoUpload -d
+bash NCISTSAutoUpload -d
 ```
 
 >  运行命令后按照提示输入用户名与密码
@@ -79,7 +79,7 @@ bash NcistsAutoUpload -d
 ### 5.1 记住用户名与密码
 
 ```shell
-bash NcistsAutoUpload -r 用户名 密
+bash NCISTSAutoUpload -r 用户名 密
 ```
 
 
@@ -87,7 +87,7 @@ bash NcistsAutoUpload -r 用户名 密
 ### 5.2 上传文件至作业中某一到题
 
 ```shell
-bash NcistsAutoUpload 题号
+bash NCISTSAutoUpload 题号
 ```
 
 
@@ -95,7 +95,7 @@ bash NcistsAutoUpload 题号
 ### 5.3 删除作业中某一道题的文件
 
 ```shell
-bash NcistsAutoUpload -d 题号
+bash NCISTSAutoUpload -d 题号
 ```
 
 
@@ -105,7 +105,7 @@ bash NcistsAutoUpload -d 题号
 请确保文件夹下无其他非作业文件，否则可能导致**误删**！
 
 ```shell
-bash NcistsAutoUpload -D
+bash NCISTSAutoUpload -D
 ```
 
 
@@ -119,7 +119,7 @@ bash NcistsAutoUpload -D
 > 将文件夹文件排序改为“修改时间正序排序”，从上到下检查图片文件是否依次对应第一题到最后一题
 
 ```shell
-bash NcistsAutoUpload -n
+bash NCISTSAutoUpload -n
 ```
 
 
