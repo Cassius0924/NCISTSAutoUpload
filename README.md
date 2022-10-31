@@ -1,14 +1,14 @@
-# NcistsAutoUpload![shell](https://img.shields.io/badge/Shell-Bash-blue)
+# NCISTSAutoUpload![shell](https://img.shields.io/badge/Shell-Bash-blue)
 
 作者：[Cassius0924](https://www.github.com/Cassius0924)
 
-Git仓库：[NcistsAutoUpload](https://www.github.com/Cassius0924/NcistsAutoUpload)
+Git仓库：[NCISTSAutoUpload](https://www.github.com/Cassius0924/NCISTSAutoUpload)
 
 
 
-## 1. NcistsAutoUpload是什么
+## 1. NCISTSAutoUpload是什么
 
-NcistsAutoUpload是一个基于Bash语言的自动化脚本，仅适用于[Ncists.top](http://ncists.top)网站自动上传作业文件。
+NCISTSAutoUpload是一个基于Bash语言的自动化脚本，仅适用于[www.ncists.top](http://ncists.top)网站自动上传作业文件。
 
 
 
@@ -27,7 +27,7 @@ NcistsAutoUpload是一个基于Bash语言的自动化脚本，仅适用于[Ncist
 ## 3. 安装
 
 ```shell
-git clone https://www.github.com/Cassius0924/NcistsAutoUpload
+git clone https://github.com/Cassius0924/NICSTSAutoUpload.git
 ```
 
 
@@ -58,7 +58,7 @@ bash NcistsAutoUpload
 
 > 运行命令后按照提示输入**用户名**与**密码**，例如：
 > 用户名：李华
-> 密码：abcd1234
+> 密码：12345678
 
 
 
