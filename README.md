@@ -16,11 +16,27 @@ NCISTSAutoUpload是一个基于Bash语言的自动化脚本，仅适用于[www.n
 
 ### 2.1 Linux和MacOS
 
+安装curl即可
 
+- **Linux**
+
+  ```shell
+  apt install curl
+  ```
+
+  
+
+- **MacOS**
+
+  ```shell
+  brew install curl
+  ```
+
+  
 
 ### 2.2 Windows
 
-
+自己去安装cygwin或其他可以在Windows平台上运行的**类UNIX**模拟环境，然后安装curl。
 
 
 
@@ -131,6 +147,10 @@ bash
 ```
 
 
+
+
+
+<s>服了老鞠，网站都不能批量上传作业，不能批量上传就算了，还限制了上传的图片的格式。</s>
 
 
 
