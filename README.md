@@ -44,9 +44,9 @@ git clone https://github.com/Cassius0924/NCISTSAutoUpload.git
 
 - **文件命名要求**
 
-  > 图片需要为*** .jpg ***格式，命名格式为*** <u>img01.jpg</u> ***
+  > 图片需要为***.jpg***格式，命名格式为***<u>img01.jpg</u>***
   >
-  > 代码文件需要为*** .java ***格式，命名格式为**<u>*zy01.java*</u>**
+  > 代码文件需要为***.java***格式，命名格式为***<u>zy01.java</u>***
 
 
 
@@ -87,7 +87,7 @@ bash NCISTSAutoUpload -r [用户名] [密码]
 ### 5.2 上传文件至作业中某一到题
 
 ```shell
-bash NCISTSAutoUpload 题号
+bash NCISTSAutoUpload [题号]
 ```
 
 
@@ -95,7 +95,7 @@ bash NCISTSAutoUpload 题号
 ### 5.3 删除作业中某一道题的文件
 
 ```shell
-bash NCISTSAutoUpload -d 题号
+bash NCISTSAutoUpload -d [题号]
 ```
 
 
@@ -125,6 +125,12 @@ bash NCISTSAutoUpload -n
 
 
 ### 5.6 查看网站上最新作业
+
+```shell
+bash 
+```
+
+
 
 
 
