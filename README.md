@@ -27,7 +27,7 @@ NCISTSAutoUpload是一个基于Bash语言的自动化脚本，仅适用于[www.n
 ## 3. 安装
 
 ```shell
-git clone https://github.com/Cassius0924/NICSTSAutoUpload.git
+git clone https://github.com/Cassius0924/NCISTSAutoUpload.git
 ```
 
 
