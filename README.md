@@ -16,7 +16,7 @@ NCISTSAutoUpload是一个基于Bash语言的自动化脚本，仅适用于[www.n
 
 ### 2.1 Linux和MacOS
 
-安装curl即可
+安装curl即可。
 
 - **Linux**
 
