@@ -79,7 +79,7 @@ bash NCISTSAutoUpload -d
 ### 5.1 记住用户名与密码
 
 ```shell
-bash NCISTSAutoUpload -r 用户名 密
+bash NCISTSAutoUpload -r [用户名] [密码]
 ```
 
 
